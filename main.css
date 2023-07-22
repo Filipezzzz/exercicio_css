@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    background-color: azure;
+}
+
+header nav ul {
+    display: inline-block;
+    margin: 10px 15px 0 0 ;
+}
+
+main {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .esporte{
+    padding: 10px 10px;
+    background-color: darkgreen;
+}
+
+main .comercio{
+    padding: 10px 10px;
+    background-color: cadetblue;
+}
+
+main .economia{
+    padding: 10px 10px;
+    background-color: aquamarine;
+}
+
+main p {
+    width: 30%;
+}
+
+main h3 {
+    margin: 15px 0;
+}
+
+main a {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.esporte img {
+    height: 280px;
+}
+
+.comercio img {
+    height: 280px;
+}
+
+.economia img {
+    height: 280px;
+}
+
+
