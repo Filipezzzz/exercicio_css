@@ -14,11 +14,16 @@ header {
 
 header h1 {
     background-color: azure;
+    
 }
 
 header nav ul {
     display: inline-block;
     margin: 10px 15px 0 0 ;
+}
+
+main h2 {
+    margin-bottom: 10px;
 }
 
 main {
@@ -54,6 +59,16 @@ main a {
     color: aliceblue;
     padding: 10px 10px;
     display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+main a:hover{
+    text-decoration:underline;
+}
+
+main a:focus {
+    color: brown;
 }
 
 .esporte img {
